@@ -1,0 +1,6 @@
+[
+  {
+    "type": "sqlite",
+    "path": "/Users/ahmadrifai/Projects/laravel-cicd/database/database.sqlite"
+  }
+]
