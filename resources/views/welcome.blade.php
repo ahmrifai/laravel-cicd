@@ -34,7 +34,7 @@
                 <!-- Logo -->
                 <a href="#" class="flex-shrink-0 flex items-center gap-2">
                     <span
-                        class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">POLINDRA KELAS B</span>
+                        class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">POLINDRA KELAS C</span>
                 </a>
 
                 <!-- Desktop Menu -->
