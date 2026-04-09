@@ -238,7 +238,7 @@
             class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
             <div
                 class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">
-                BrandKu</div>
+                POLINDRA CICD</div>
             <p class="text-gray-500 text-sm text-center">© 2026 BrandKu. Hak cipta dilindungi undang-undang.</p>
             <div class="flex gap-5">
                 <a href="#" class="text-gray-400 hover:text-indigo-600 transition" aria-label="Twitter">
