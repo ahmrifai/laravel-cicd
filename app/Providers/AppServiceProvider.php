@@ -20,6 +20,9 @@ final class AppServiceProvider extends ServiceProvider
     /**
      * Bootstrap any application services.
      */
+    /**
+     * @psalm-mutation-free
+     */
     public function boot(): void
     {
         //
