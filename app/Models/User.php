@@ -12,15 +12,17 @@ use Illuminate\Notifications\Notifiable;
 
 #[Fillable(['name', 'email', 'password'])]
 #[Hidden(['password', 'remember_token'])]
-class User extends Authenticatable
+final class User extends Authenticatable
 {
     /** @use HasFactory<UserFactory> */
     use HasFactory, Notifiable;
-
     /**
      * Get the attributes that should be cast.
      *
      * @return array<string, string>
+     */
+    /**
+     * @psalm-pure
      */
     protected function casts(): array
     {
