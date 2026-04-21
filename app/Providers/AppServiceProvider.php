@@ -9,6 +9,9 @@ final class AppServiceProvider extends ServiceProvider
     /**
      * Register any application services.
      */
+    /**
+     * @psalm-mutation-free
+     */
     public function register(): void
     {
         //
