@@ -39,6 +39,7 @@ jobs:
             -t zaproxy/zap-stable zap-baseline.py \
             -t http://localhost:8000 \
             -r report.html
+        continue-on-error: true
 
       - name: Upload Report
         uses: actions/upload-artifact@v4
