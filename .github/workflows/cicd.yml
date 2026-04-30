@@ -34,6 +34,17 @@ jobs:
       - name: Generate app key
         run: php artisan key:generate
 
+      - name: NodeJS Setup
+        uses: actions/setup-node@v3
+        with:
+          node-version: '24.15.0'
+
+      - name: Install Node dependencies
+        run: npm install
+
+      - name: NPM Build
+        run: npm run build
+
       - name: Security Testing
         run: ./vendor/bin/psalm
         continue-on-error: true
